@@ -2,34 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-
-  <title>Frontend Mentor </title>
+  <title>Frontend Mentor</title>
 </head>
 
 <body>
   <div class="main-container">
     <div class="main-content">
-      <div class="entradas">
-        <form action="submit_payment.php" method="post">
-
-          <label for="dia">DAY</label>
-          <input type="text" id="dia" name="dia" placeholder="DD" required>
-
-          <label for="mes">MONTH</label>
-          <input type="text" id="mes" name="mes" placeholder="MM" pattern="\d{16}" required>
-
-          <label for="ano">YEAR</label>
-          <input type="text" id="ano" name="ano" placeholder="YYYY" pattern="\d{2}" required>
-
+      <form action="submit_payment.php" method="post">
+        <div class="entradas">
+          <div class="input-group">
+            <label for="dia">DAY</label>
+            <input type="text" id="dia" name="dia" placeholder="DD" required>
+          </div>
+          <div class="input-group">
+            <label for="mes">MONTH</label>
+            <input type="text" id="mes" name="mes" placeholder="MM" required>
+          </div>
+          <div class="input-group">
+            <label for="ano">YEAR</label>
+            <input type="text" id="ano" name="ano" placeholder="YYYY" required>
+          </div>
           <button type="submit">Confirm</button>
-        </form>
-      </div>
+        </div>
+      </form>
       <div class="saida">
-          <p>TESTE</p>
+        <p>--years</p>
+        <p>--months</p>
+        <p>--days</p>
+
       </div>
     </div>
   </div>
