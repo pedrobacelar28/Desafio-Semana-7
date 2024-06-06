@@ -30,7 +30,7 @@
   }
 
   #root{
-    width: 42.5%;
+    width: 47.5%;
   }
   
 
@@ -61,7 +61,7 @@
 
   .entradas {
     display: flex;
-    gap: 40px;
+    gap: 45px;
     align-items: flex-end; /* Alinha os inputs e botão na parte inferior */
   }
   
@@ -81,8 +81,8 @@
     padding: 5px; /* Ajuste o padding para caber na altura */
     border: 1px solid hsl(0, 0%, 86%);
     border-radius: 4px;
-    width: 100px; /* Largura dos inputs */
-    margin-bottom: 20px;
+    width: 125px; /* Largura dos inputs */
+    margin-bottom: 7.5px;
   }
 
   .linha {
@@ -109,7 +109,7 @@
     height: 100px; /* Altura do botão para combinar com os inputs */
     margin-bottom: 20px;
     position: absolute;
-    left: 75%;
+    left: 78%;
     top: 22.5%;
     z-index: 2;
   }
@@ -145,3 +145,18 @@
     color: hsl(259, 100%, 65%);
   }
   
+.input-group span.error {
+  color: hsl(0, 100%, 67%);
+  font-style: italic;
+  font-size: 0.7em;
+  padding-right: 8%;
+}
+
+.input-group input.error {
+  border-color: hsl(0, 100%, 67%);
+}
+
+.input-group label.error {
+  color: hsl(0, 100%, 67%);
+}
+
