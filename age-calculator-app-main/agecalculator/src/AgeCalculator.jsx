@@ -29,9 +29,9 @@ const AgeCalculator = () => {
       </form>
       <div className="linha"></div>
       <div className="saida">
-        <p>--years</p>
-        <p>--months</p>
-        <p>--days</p>
+        <p><span className="--">--</span>years</p>
+        <p><span className="--">--</span>months</p>
+        <p><span className="--">--</span>days</p>
       </div>
     </>
   );
