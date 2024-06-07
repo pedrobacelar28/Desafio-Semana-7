@@ -69,6 +69,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 2rem;
+    position: relative;
   }
 
   .input-group input:hover{
@@ -150,6 +152,13 @@
   font-style: italic;
   font-size: 0.7em;
   padding-right: 8%;
+  white-space: nowrap;
+}
+
+.input-group .error-container {
+  min-height: 1.5em;
+  display: flex;
+  align-items: center;
 }
 
 .input-group input.error {
