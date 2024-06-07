@@ -122,7 +122,7 @@ const AgeCalculator = () => {
       </form>
       <div className="linha"></div>
       <div className="saida">
-        <p><span className="--">{age.years}</span></p>
+        <p><span className="--">{age.years}</span>years</p>
         <p><span className="--">{age.months}</span>months</p>
         <p><span className="--">{age.days}</span>days</p>
       </div>
