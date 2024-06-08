@@ -88,7 +88,7 @@
   }
 
   .linha {
-    border-bottom: 1px solid #000; 
+    border-bottom: 1px solid; 
     width: 72.5%; 
     position: absolute;
     top: 32.5%;
